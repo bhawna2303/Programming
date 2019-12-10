@@ -53,6 +53,12 @@ public class Graph {
         hm = new HashMap<>();
     }
 
+    public Map<String, List<Edge>> getHm() {
+        return hm;
+    }
+    
+    
+
     @Override
     public String toString() {
         return "Graph{" + "hm=" + hm.toString() + '}';
